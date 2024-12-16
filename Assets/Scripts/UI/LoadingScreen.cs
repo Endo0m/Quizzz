@@ -9,7 +9,6 @@ public class LoadingScreen : MonoBehaviour
     [SerializeField] private CanvasGroup loadingGroup;
     private void Awake()
     {
-        // Убедимся что начинаем с скрытого состояния
         if (loadingGroup != null)
         {
             loadingGroup.alpha = 0;
