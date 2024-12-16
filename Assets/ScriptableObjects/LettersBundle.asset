@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d35b054e594eb84b822272ae37e7675, type: 3}
+  m_Name: LettersBundle
+  m_EditorClassIdentifier: 
+  Cards:
+  - Value: A
+    Icon: {fileID: 4963718625464178563, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: B
+    Icon: {fileID: 7783457984840754399, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: C
+    Icon: {fileID: 3234300448368640894, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: D
+    Icon: {fileID: 7911670913450602933, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: F
+    Icon: {fileID: -6426668015567183463, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: G
+    Icon: {fileID: 216406037199867053, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: J
+    Icon: {fileID: -2756605603065543306, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: I
+    Icon: {fileID: -3541686595128163680, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: E
+    Icon: {fileID: 4652326554734856401, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: H
+    Icon: {fileID: -8235857483100294123, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: K
+    Icon: {fileID: -1127063002332224934, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: L
+    Icon: {fileID: -5901097786099144959, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: M
+    Icon: {fileID: 3295844289267200183, guid: 631a4d932e2b9c844a0de607898b7a7b, type: 3}
+  - Value: R
+    Icon: {fileID: -6342808464625005154, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: S
+    Icon: {fileID: 8083504644574312765, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: U
+    Icon: {fileID: 3270655726746431581, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: V
+    Icon: {fileID: -2983290644488427326, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: O
+    Icon: {fileID: 5433449995169814141, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: Q
+    Icon: {fileID: -4447791616812998045, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: W
+    Icon: {fileID: -9165466868132007793, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: T
+    Icon: {fileID: -4461999128152558772, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: N
+    Icon: {fileID: 7112752472869403061, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: P
+    Icon: {fileID: -4252152113809563852, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: X
+    Icon: {fileID: 4461586319009975920, guid: 0a0a22fed88fce2498368fefbe70460a, type: 3}
+  - Value: Y
+    Icon: {fileID: -5001085640463096552, guid: 040eaee7ac527564fbcb1dd9af9452cb, type: 3}
+  - Value: Z
+    Icon: {fileID: 3539555106843919260, guid: 040eaee7ac527564fbcb1dd9af9452cb, type: 3}
