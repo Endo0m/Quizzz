@@ -12,13 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887498c474271eb47890e5ffafa23b1b, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
-  Levels:
-  - Rows: 1
-    Columns: 3
-  - Rows: 2
-    Columns: 3
-  - Rows: 3
-    Columns: 3
   LettersBundle: {fileID: 11400000, guid: c259714f89083ee4a9b158365c834506, type: 2}
   NumbersBundle: {fileID: 11400000, guid: a793f9b6a0888f54eb2089fb23e763ed, type: 2}
   CellSpacing: 5

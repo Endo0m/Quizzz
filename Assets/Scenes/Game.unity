@@ -568,6 +568,7 @@ MonoBehaviour:
   bundles:
   - {fileID: 11400000, guid: c259714f89083ee4a9b158365c834506, type: 2}
   - {fileID: 11400000, guid: a793f9b6a0888f54eb2089fb23e763ed, type: 2}
+  - {fileID: 11400000, guid: ddd938675dab88e46adf9e70a3782b4f, type: 2}
 --- !u!114 &1242988288
 MonoBehaviour:
   m_ObjectHideFlags: 0
