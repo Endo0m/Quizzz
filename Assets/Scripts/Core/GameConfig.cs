@@ -3,7 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameConfig", menuName = "Quiz/Game Config")]
 public class GameConfig : ScriptableObject
 {
-    public LevelSettings[] Levels;
     public CardBundleData LettersBundle;
     public CardBundleData NumbersBundle;
     public float CellSpacing = 1.2f;
