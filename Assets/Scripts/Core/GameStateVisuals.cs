@@ -1,7 +1,4 @@
-    using System.Collections;
-    using System.Collections.Generic;
     using UnityEngine;
-
     public class GameStateVisuals : MonoBehaviour
     {
         [SerializeField] private RestartButton restartButton;
@@ -9,8 +6,7 @@
         [SerializeField] private LoadingScreen loadingScreen;
         [SerializeField] private GameStateHandler gameState;
         [SerializeField] private GridSpawner gridSpawner;
-
-    private void OnEnable()
+        private void OnEnable()
         {
             gameState.OnGameCompleted += HandleGameCompleted;
         }
@@ -19,7 +15,6 @@
         {
             gameState.OnGameCompleted -= HandleGameCompleted;
         }
-
         private void HandleGameCompleted()
         {
             if (gridSpawner != null)
@@ -29,7 +24,6 @@
             screenFader.FadeToPartial();
             restartButton.Show();
         }
-
         public void HandleRestart()
         {
             if (gridSpawner != null)

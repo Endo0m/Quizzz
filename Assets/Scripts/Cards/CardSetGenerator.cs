@@ -25,7 +25,6 @@ public class CardSetGenerator : MonoBehaviour
         string target = SelectTarget(selectedCards);
         return (selectedCards, target);
     }
-
     private string SelectTarget(List<CardData> cards)
     {
         var unusedCards = cards.Where(c => !usedTargets.Contains(c.Value)).ToList();

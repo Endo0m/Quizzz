@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class LevelSequence : MonoBehaviour
 {
     [SerializeField] private LevelSequenceData sequenceData;

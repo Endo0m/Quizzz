@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-
 public class GridSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject cardPrefab;
@@ -13,8 +12,6 @@ public class GridSpawner : MonoBehaviour
     {
         levelInitializer = GetComponent<LevelInitializer>();
     }
-
-
     public void CreateGrid(LevelSettings settings, List<CardData> cardDataList)
     {
         if (cardPrefab == null || gridContainer == null || gameConfig == null)
@@ -22,7 +19,6 @@ public class GridSpawner : MonoBehaviour
             Debug.LogError("Missing required references in GridSpawner!");
             return;
         }
-
         ClearGrid();
 
         float startX = -(settings.Columns - 1) * gameConfig.CellSpacing / 2;
